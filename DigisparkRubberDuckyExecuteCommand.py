@@ -50,6 +50,7 @@ with open(join("DigisparkRubberDucky", "DigisparkRubberDucky.ino"), "w") as file
     file.write("""
 #include "DigiKeyboard.h"
 
+// https://learn.microsoft.com/en-us/windows/win32/inputdev/about-keyboard-input
 """ + data + """
 #define PAYLOAD_LENGTH """ + str(len(payload) * 2) + """
 const PROGMEM uint8_t payload [PAYLOAD_LENGTH] = {
