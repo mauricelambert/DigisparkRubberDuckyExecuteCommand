@@ -7,7 +7,7 @@
 This python script generates the INO code to make your own Rubber Ducky with a Digispark without any requirements.
 
 > This script is written to execute a command with from a Digispark, so it generate the *Windows+R* keyboard shortcut at the start and the *Return* (or *enter*) key press at the end.
->> A had a little feature to know when your code is written, when Digispark firmware will write characters, the red LED is HIGH (turned on), at the payload end the LED is LOW (turned off).
+>> I had a little feature to know when your payload is written on the victim computer, when Digispark firmware will write characters, the red LED is HIGH (turned on), at the payload end the LED is LOW (turned off).
 
 ## Requirements
 
